@@ -46,7 +46,7 @@ sections:
       - type: FeaturedItem
         title: Guess The Place
         tagline: APP
-        subtitle: This is the item subtitle
+        subtitle: Discover new travel destinations
         text: |
           Follow the tutorial to build your first Netlify site.
         image:
