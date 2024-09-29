@@ -2,37 +2,6 @@
 title: Home
 slug: /
 sections:
-  - type: GenericSection
-    title:
-      text: We build Apps and stuff.
-      color: text-dark
-      type: TitleBlock
-    subtitle: Our APPs just slay.
-    text: >
-      As an Tech agency, we own 5 APPs that cater to the needs of 5m active
-      users. We also are working on 3 new apps in gaming and education vertical.
-      We will share more details on thee website once they are ready for launch.
-    actions: []
-    media:
-      url: /images/main-hero.svg
-      altText: Unblock your team boost your time to production preview
-      elementId: ''
-      type: ImageBlock
-    badge:
-      label: We are Canal Infotech b.v.
-      color: text-primary
-      type: Badge
-    elementId: ''
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        alignItems: center
-        flexDirection: row
-        padding:
-          - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
   - type: FeaturedItemsSection
     title:
       type: TitleBlock
