@@ -66,11 +66,9 @@ sections:
       color: text-dark
       type: TitleBlock
     subtitle: Please use the form below and we will get in touch with you shortly.
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+    text: >
+      We are actively looking to work with ambitious people who wants to add
+      value to consumers and have fun while doing it.
     media:
       fields:
         - name: name
