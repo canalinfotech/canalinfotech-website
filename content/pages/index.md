@@ -49,8 +49,8 @@ sections:
       type: TitleBlock
     subtitle: Please use the form below and we will get in touch with you shortly.
     text: >
-      We are actively looking to work with ambitious people who wants to add
-      value to consumers and have fun while doing it.
+      We are **actively looking** to work with **ambitious** people who wants to
+      add value to consumers and have **fun** while doing it.
     media:
       fields:
         - name: name
