@@ -48,7 +48,7 @@ sections:
         tagline: APP
         subtitle: Discover new travel destinations
         text: |
-          Follow the tutorial to build your first Netlify site.
+          Discover the world while playing a trivia game.
         image:
           type: ImageBlock
           url: /images/abstract-feature1.svg
