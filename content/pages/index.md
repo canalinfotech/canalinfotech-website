@@ -19,7 +19,7 @@ sections:
       elementId: ''
       type: ImageBlock
     badge:
-      label: We are Canal Infotech.
+      label: We are Canal Infotech b.v.
       color: text-primary
       type: Badge
     elementId: ''
