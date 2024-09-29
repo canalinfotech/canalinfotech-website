@@ -78,7 +78,7 @@ sections:
       type: FormBlock
       submitButton:
         type: SubmitButtonFormControl
-        label: Submit
+        label: Send
         showIcon: true
         icon: arrowRight
         iconPosition: right
