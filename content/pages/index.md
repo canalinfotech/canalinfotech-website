@@ -9,9 +9,9 @@ sections:
       type: TitleBlock
     subtitle: Our APPs just slay.
     text: >
-      A Netlify Create website is a git repo that you own. Every code commit is
-      instantly reflected in the visual editor and since every visual edit is a
-      git commit, git workflows and collaboration just work.
+      As an Tech agency, we own 5 APPs that cater to the needs of 5m active
+      users. We also are working on 3 new apps in gaming and education vertical.
+      We will share more details on thee website once they are ready for launch.
     actions:
       - label: Get started
         altText: ''
