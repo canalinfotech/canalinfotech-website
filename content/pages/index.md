@@ -19,7 +19,7 @@ sections:
       elementId: ''
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: About us
       color: text-primary
       type: Badge
     elementId: ''
