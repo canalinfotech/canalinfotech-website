@@ -70,7 +70,7 @@ sections:
       - type: FeaturedItem
         title: Feature Item Two
         tagline: APP
-        subtitle: This is the item subtitle
+        subtitle: Order The Statement
         text: |
           Follow the tutorial to build your first awesome Netlify site.
         image:
