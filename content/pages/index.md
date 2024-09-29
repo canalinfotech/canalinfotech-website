@@ -13,15 +13,6 @@ sections:
       users. We also are working on 3 new apps in gaming and education vertical.
       We will share more details on thee website once they are ready for launch.
     actions:
-      - label: Get started
-        altText: ''
-        url: /
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        elementId: ''
-        type: Button
       - label: See Tutorials
         altText: ''
         url: /
