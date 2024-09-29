@@ -72,7 +72,7 @@ sections:
         tagline: APP
         subtitle: Order The Statement
         text: |
-          Follow the tutorial to build your first awesome Netlify site.
+          Choose your apparel with rebellion..
         image:
           type: ImageBlock
           url: /images/abstract-feature2.svg
