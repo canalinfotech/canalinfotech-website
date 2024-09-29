@@ -81,7 +81,7 @@ sections:
         label: Submit
         showIcon: false
         icon: arrowRight
-        iconPosition: left
+        iconPosition: right
         style: primary
         elementId: null
     badge:
