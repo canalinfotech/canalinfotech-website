@@ -12,16 +12,7 @@ sections:
       As an Tech agency, we own 5 APPs that cater to the needs of 5m active
       users. We also are working on 3 new apps in gaming and education vertical.
       We will share more details on thee website once they are ready for launch.
-    actions:
-      - label: See Tutorials
-        altText: ''
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
-        type: Link
+    actions: []
     media:
       url: /images/main-hero.svg
       altText: Unblock your team boost your time to production preview
