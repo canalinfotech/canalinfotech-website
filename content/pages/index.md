@@ -72,7 +72,7 @@ sections:
         tagline: APP
         subtitle: Order The Statement
         text: |
-          Choose your apparel with rebellion..
+          Choose your apparel with rebellion.
         image:
           type: ImageBlock
           url: /images/abstract-feature2.svg
