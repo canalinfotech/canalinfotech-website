@@ -102,7 +102,9 @@ sections:
     type: DividerSection
 seo:
   metaTitle: Canal Infotech
-  metaDescription: This demo site is built with Netlify Create.
+  metaDescription: >-
+    We build IOS and Android consumer APPs, that solve niche problems in the
+    travel, leisure and gaming industry.
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
