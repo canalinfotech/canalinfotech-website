@@ -65,7 +65,7 @@ sections:
       text: Wanna say "Hi"?
       color: text-dark
       type: TitleBlock
-    subtitle: Section with a form subtitle
+    subtitle: Please use the form below and we will get in touch with you shortly.
     text: |-
       Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
       Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
