@@ -56,7 +56,16 @@ sections:
           styles:
             self:
               borderRadius: x-large
-        actions: []
+        actions:
+          - type: Link
+            label: Buy now
+            altText: Buy now
+            url: /
+            showIcon: true
+            icon: shoppingBag
+            iconPosition: left
+            style: secondary
+            elementId: ''
         colors: bg-light-fg-dark
         styles:
           self:
