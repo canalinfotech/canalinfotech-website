@@ -62,7 +62,7 @@ sections:
           - pr-7
     type: DividerSection
   - title:
-      text: Wanna say Hi?
+      text: Wanna say "Hi"?
       color: text-dark
       type: TitleBlock
     subtitle: Section with a form subtitle
