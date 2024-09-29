@@ -85,7 +85,7 @@ sections:
         style: primary
         elementId: null
     badge:
-      label: What about you?
+      label: usually replies within an hour
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
