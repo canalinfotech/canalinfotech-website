@@ -1,94 +1,105 @@
-/* Reset basic styles */
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
 body {
+    font-family: 'Poppins', sans-serif;
     line-height: 1.6;
+    background-color: #f4f4f4;
     color: #333;
-}
-
-/* Container */
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
-/* Navbar */
-.navbar {
-    background: #333;
-    color: #fff;
-    padding: 1em 0;
-}
-
-.navbar .logo {
-    float: left;
-    font-size: 1.5em;
-}
-
-.navbar .nav-links {
-    float: right;
-    list-style: none;
-}
-
-.navbar .nav-links li {
-    display: inline;
-    margin-left: 15px;
-}
-
-.navbar .nav-links a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.navbar .nav-links a:hover {
-    color: #f4b400;
 }
 
 /* Hero Section */
-.hero-section {
-    background: url('hero-bg.jpg') no-repeat center center/cover;
-    color: #fff;
-    height: 100vh;
+.hero {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/1600x900/?technology') no-repeat center center/cover;
+    color: white;
     text-align: center;
 }
 
-.hero-section h2 {
-    font-size: 3em;
-    margin-bottom: 0.5em;
+.hero-title {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
 }
 
-.hero-section p {
-    font-size: 1.2em;
-    margin-bottom: 1em;
+.hero-title span {
+    color: #1E90FF;
 }
 
-.hero-section .btn {
-    padding: 0.75em 1.5em;
-    background: #f4b400;
-    color: #333;
-    text-decoration: none;
-    font-weight: bold;
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta-button {
+    padding: 0.75rem 2rem;
+    background-color: #1E90FF;
+    color: white;
     border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
 }
 
-.hero-section .btn:hover {
-    background: #fff;
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* About Section */
+.section {
+    padding: 4rem 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.section p {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
 }
 
 /* Footer */
-footer {
-    background: #333;
+.footer {
+    background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 1em 0;
-    margin-top: 20px;
+    padding: 2rem;
+}
+
+.footer a {
+    color: #1E90FF;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #00BFFF;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .cta-button {
+        padding: 0.5rem 1.5rem;
+    }
 }
