@@ -63,7 +63,7 @@ export default function LandingPage() {
           <div>
             <h1 className="text-4xl font-bold mb-4 text-white">Get in Touch</h1>
             <p className="text-xl mb-6 text-gray-300">
-              Have questions about our tech solutions or want to discuss a project? We'd love to hear from you!
+              Have questions about our tech solutions or want to discuss a project? We&apos;d love to hear from you!
             </p>
             <div className="space-y-4">
               <div className="flex items-center space-x-3 text-gray-300">
