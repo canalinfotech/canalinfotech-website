@@ -71,3 +71,9 @@
 html {
   scroll-padding-top: 80px; /* Adjust this value based on your header height */
 }
+
+@layer components {
+  .container {
+    @apply px-4 sm:px-6 md:px-8 mx-auto; /* Reduce the px-4 value for mobile */
+  }
+}

@@ -12,20 +12,12 @@ export default function AppSection() {
         </p>
         <div className="flex justify-center gap-4">
           <a 
-            href="https://play.google.com/store" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="bg-[#6D28D9] hover:bg-[#5B21B6] text-white font-semibold py-3 px-8 rounded-full text-lg transition-colors"
-          >
-            Download for Android
-          </a>
-          <a 
             href="https://apps.apple.com" 
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-[#6D28D9] hover:bg-[#5B21B6] text-white font-semibold py-3 px-8 rounded-full text-lg transition-colors"
           >
-            Download for iOS
+            Download the iOS App
           </a>
         </div>
       </div>
