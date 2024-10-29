@@ -7,7 +7,7 @@ import { Textarea } from "@/components/ui/textarea"
 
 export default function ContactSection() {
   return (
-    <section id="contact" className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start py-20">
+    <section id="contact" className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start py-12">
       <div>
         <h1 className="text-4xl font-bold mb-4 text-white">Contact Us</h1>
         <p className="text-xl mb-6 text-gray-300">
