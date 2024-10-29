@@ -39,12 +39,12 @@ export default function LandingPage() {
       <main className="relative flex-grow flex flex-col items-center p-6">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-20">
           <div>
-            <h1 className="text-4xl font-bold mb-4 text-white">Innovative Tech Solutions</h1>
+            <h1 className="text-4xl font-bold mb-4 text-white">Guess The Place</h1>
             <p className="text-xl mb-6 text-gray-300">
-              Empowering businesses with cutting-edge technology and custom applications.
+              Discover new destinations by challenging your knowledge of placed around the world.
             </p>
             <Button className="bg-[#6D28D9] hover:bg-[#5B21B6] text-white font-semibold py-2 px-6 rounded-full text-lg">
-              Know more
+              Read more
             </Button>
           </div>
           <div className="bg-gray-700/50 backdrop-blur-lg rounded-lg overflow-hidden">
@@ -60,7 +60,7 @@ export default function LandingPage() {
 
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start mt-20">
           <div>
-            <h1 className="text-4xl font-bold mb-4 text-white">Get in Touch</h1>
+            <h1 className="text-4xl font-bold mb-4 text-white">Contact Us</h1>
             <p className="text-xl mb-6 text-gray-300">
               Have questions about our tech solutions or want to discuss a project? We&apos;d love to hear from you!
             </p>
@@ -68,14 +68,6 @@ export default function LandingPage() {
               <div className="flex items-center space-x-3 text-gray-300">
                 <Mail className="w-6 h-6" />
                 <span>info@canalinfotech.com</span>
-              </div>
-              <div className="flex items-center space-x-3 text-gray-300">
-                <Phone className="w-6 h-6" />
-                <span>+1 (555) 123-4567</span>
-              </div>
-              <div className="flex items-center space-x-3 text-gray-300">
-                <MapPin className="w-6 h-6" />
-                <span>123 Tech Street, Innovation City, TC 12345</span>
               </div>
             </div>
           </div>
