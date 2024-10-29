@@ -1,59 +1,33 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { Menu, Mail, Phone, MapPin } from 'lucide-react'
+import { Mail } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen flex flex-col relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGNsaXBQYXRoIGlkPSJhIj48cGF0aCBkPSJNMCAwaDMwdjMwSDB6Ii8+PC9jbGlwUGF0aD48L2RlZnM+PGcgY2xpcC1wYXRoPSJ1cmwoI2EpIiBmaWxsPSJub25lIj48cGF0aCBkPSJNMzAgMEgwdjMwaDMwVjB6TTI5LjUuNUguNXYyOWgyOVYuNXoiIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iLjE1Ii8+PGNpcmNsZSBjeD0iMTUiIGN5PSIxNSIgcj0iMSIgZmlsbD0iI2ZmZiIgZmlsbC1vcGFjaXR5PSIuMyIvPjwvZz48L3N2Zz4=')] bg-[size:30px_30px]" />
-      </div>
-      
-      <header className="relative p-4 flex justify-between items-center">
-        <div className="flex items-center space-x-2">
-          <Image
-            src="/logo.png"
-            alt="Canal InfoTech Logo"
-            width={32}
-            height={32}
-            className="w-8 h-8 object-contain"
-          />
-          <span className="text-white text-xl font-semibold">Canal Infotech</span>
-        </div>
-        <nav className="hidden md:flex space-x-6">
-          <Link href="/apps" className="text-white hover:text-purple-300 transition-colors">
-            Apps
-          </Link>
-          <Link href="/contact" className="text-white hover:text-purple-300 transition-colors">
-            Contact
-          </Link>
-        </nav>
-        <Button variant="ghost" size="icon" className="md:hidden text-white">
-          <Menu className="h-6 w-6" />
-        </Button>
-      </header>
-
-      <main className="relative flex-grow flex flex-col items-center p-6">
+    <div className="flex flex-col">
+      <main className="flex-grow flex flex-col items-center p-6">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-20">
           <div>
             <h1 className="text-4xl font-bold mb-4 text-white">Guess The Place</h1>
             <p className="text-xl mb-6 text-gray-300">
-              Discover new destinations by challenging your knowledge of placed around the world.
+              Discover new destinations by challenging your knowledge of places around the world.
             </p>
-            <Button className="bg-[#6D28D9] hover:bg-[#5B21B6] text-white font-semibold py-2 px-6 rounded-full text-lg">
-              Read more
-            </Button>
+            <Link href="/apps">
+              <Button className="bg-[#6D28D9] hover:bg-[#5B21B6] text-white font-semibold py-2 px-6 rounded-full text-lg">
+                Read more
+              </Button>
+            </Link>
           </div>
-          <div className="bg-gray-700/50 backdrop-blur-lg rounded-lg overflow-hidden">
+          <div className="bg-gray-700/50 backdrop-blur-lg rounded-lg overflow-hidden max-w-md mx-auto">
             <Image 
               src="/hero_image.png" 
-              alt="Collage of underrated travel destinations" 
-              width={600} 
-              height={400} 
-              className="w-full h-auto"
+              alt="App preview" 
+              width={400}
+              height={300}
+              className="w-full h-auto object-cover"
             />
           </div>
         </div>
@@ -93,12 +67,6 @@ export default function LandingPage() {
           </div>
         </div>
       </main>
-
-      <footer className="relative bg-slate-800 text-white py-8">
-        <div className="container mx-auto px-4 text-center">
-          <p>&copy; {new Date().getFullYear()} Guess The Place. All rights reserved.</p>
-        </div>
-      </footer>
     </div>
   )
 }
