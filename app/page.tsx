@@ -49,7 +49,7 @@ export default function LandingPage() {
           </div>
           <div className="bg-gray-700/50 backdrop-blur-lg rounded-lg overflow-hidden">
             <Image 
-              src="/placeholder.svg?height=400&width=600" 
+              src="/hero_image.png" 
               alt="Collage of underrated travel destinations" 
               width={600} 
               height={400} 
